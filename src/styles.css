@@ -1,0 +1,14 @@
+:root{
+    --color-primary:rgb(239, 241, 84)
+}
+body { 
+    margin:0;
+}
+#topo{
+    background-color: var(--color-primary);
+    padding: 16px;
+}
+#lateral{
+    display: flex;
+    background-color: aqua;
+}
