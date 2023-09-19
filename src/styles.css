@@ -1,14 +1,61 @@
 :root{
-    --color-primary:rgb(239, 241, 84)
+    --color-primary: #F5CC00;
+    --color-text: #1D1D1B;
 }
 body { 
     margin:0;
+    font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  sans-serif;
+
 }
-#topo{
-    background-color: var(--color-primary);
+header{
+    background-color: #ddd;
     padding: 16px;
 }
-#lateral{
+.menu{
     display: flex;
-    background-color: aqua;
+    justify-content: space-between;
+    background-color:#f00;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 80%;
+}
+
+.linkList{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.linkList li{
+    padding: 0px 24px;
+}
+.linkList li a{
+    text-decoration: none;
+    color: var(--color-text)
+}
+.linkList li a:hover{
+    text-decoration: none;
+    color: var(--color-primary)
+}
+#conteudo{
+    display: flex;
+    min-height: 100vh;
+    background-color: #9e9e9e;
+}
+footer{
+    padding: 16px;
+}
+footer p{
+    font-size: 8pt;
+}
+.socialIcon{
+    font-size: 40px;
+} 
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
